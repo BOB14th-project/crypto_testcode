@@ -11,6 +11,7 @@
   - `af_alg`, `cryptodev`와 같은 커널/OS 인터페이스
 - `tests/custom_impl/` – 직접 구현한 고전 암호 알고리즘 레퍼런스 및 취약 시나리오 실험 코드
 - `tests/need_cli_input/` – CLI 입력이 필요한 상호작용형 예제 (현재 OpenSSL 카테고리 구조와 동일)
+- `tests/need_gui_input/` – GUI 상호작용이 필요한 데모(프레임워크별 하위 구조 권장)
 
 ## 테스트 중점 영역
 - **대칭키 암호** – 블록 모드(CBC, CTR), AEAD(GCM, ChaCha20-Poly1305), 패딩, IV/논스 처리, 스트림 크기 경계값을 검증합니다.
