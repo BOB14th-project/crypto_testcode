@@ -1,0 +1,57 @@
+# Build artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.class
+*.jar
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# CMake / Make / Ninja
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+out/
+dist/
+
+# Java build tooling
+target/
+.gradle/
+.mvn/
+*.iml
+.idea/
+.classpath
+.project
+.settings/
+
+# Python tooling
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+pip-wheel-metadata/
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Generated test binaries
+tests/api_call/**/complextest
+tests/api_call/**/complextest.exe
+
+# Other
+.DS_Store
+Thumbs.db
