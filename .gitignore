@@ -25,6 +25,7 @@ Makefile
 build/
 out/
 dist/
+build-platform/
 
 # Java build tooling
 target/
